@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { initializeDB } from "./database";
+import { initializeDB } from "./database.js";
 import carsRouter from "./routes/cars.js"
 
 
